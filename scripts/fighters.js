@@ -1,4 +1,4 @@
-// Fighters
+// Fighters!
 export let fighters = [
     // BASE SET
     {
