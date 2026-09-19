@@ -1177,7 +1177,7 @@ export let fighters = [
             },
             {
                 fighter: "Combo Master",
-                name: "Helping Buddy",
+                name: "Helping Hand",
                 copies: 2,
                 hasHeal: true,
                 hasHealAlly: true,
