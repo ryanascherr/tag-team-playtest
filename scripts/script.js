@@ -145,6 +145,9 @@ document.body.addEventListener('click', function(event) {
         if (event.target.classList.contains("js_new-set-btn")) {
             inputsToBeChecked = this.querySelectorAll(".js_new-set");
         }
+        if (event.target.classList.contains("js_set-3-btn")) {
+            inputsToBeChecked = this.querySelectorAll(".js_set-3");
+        }
 
         inputsToBeChecked.forEach((input) => {
             input.checked = true;
@@ -270,13 +273,13 @@ function placeFighterCards(fighterName) {
 // - Show their fighter boards, show their cards, and show their card distributions
 document.body.addEventListener('click', function(event) {
     if (event.target.classList.contains("js_random-pair-btn")) {
-        let randomNumberOne = Math.floor(Math.random() * 25);
-        let randomNumberTwo = Math.floor(Math.random() * 25);
+        let randomNumberOne = Math.floor(Math.random() * 27);
+        let randomNumberTwo = Math.floor(Math.random() * 27);
 
         checkNumbers();
         function checkNumbers() {
             if (randomNumberOne === randomNumberTwo) {
-                randomNumberTwo = Math.floor(Math.random() * 25);
+                randomNumberTwo = Math.floor(Math.random() * 27);
                 checkNumbers();
             }
         }

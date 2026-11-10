@@ -1385,4 +1385,101 @@ export let fighters = [
             },
         ]
     },
+    // EXPANSION 3
+    {
+        name: "Baba Yaga",
+        cards: [
+            {
+                fighter: "Baba Yaga",
+                name: "Venom",
+                copies: 1,
+                isStartingCard: true,
+                affectsStartingCard: true,
+                hasUniqueIcon: true,
+                hasConditional: true,
+            },
+            {
+                fighter: "Baba Yaga",
+                name: "Curse",
+                copies: 3,
+                hasBlock: true,
+                hasUniqueIcon: true,
+            },
+            {
+                fighter: "Baba Yaga",
+                name: "Mortar",
+                copies: 2,
+                hasHeal: true,
+            },
+            {
+                fighter: "Baba Yaga",
+                name: "Pestle",
+                copies: 2,
+                hasAttack: true,
+                hasUniqueIcon: true,
+            },
+            {
+                fighter: "Baba Yaga",
+                name: "Poisoned Gift",
+                copies: 1,
+                hasAttack: true,
+            },
+            {
+                fighter: "Baba Yaga",
+                name: "Submit",
+                copies: 1,
+                hasGainPower: true,
+                hasPowerSelf: true,
+            },
+        ]
+    },
+    {
+        name: "Carmilla",
+        cards: [
+            {
+                fighter: "Carmilla",
+                name: "Fangs",
+                copies: 3,
+                isStartingCard: true,
+                hasNonStarters: true,
+                hasAttack: true,
+                hasHeal: true,
+                hasHealAlly: true,
+                hasHealBoth: true,
+                affectsFriendlyAlly: true,
+                hasUniqueIcon: true,
+            },
+            {
+                fighter: "Carmilla",
+                name: "Coffin",
+                copies: 1,
+                hasHeal: true,
+                hasInstantBonus: true,
+            },
+            {
+                fighter: "Carmilla",
+                name: "Spew Blood",
+                copies: 1,
+                hasDirectDamage: true,
+                affectsOpponentAlly: true,
+                hasUniqueIcon: true,
+            },
+            {
+                fighter: "Carmilla",
+                name: "Stone Skin",
+                copies: 3,
+                hasBlock: true,
+                hasUniqueIcon: true,
+            },
+            {
+                fighter: "Carmilla",
+                name: "Transmutation",
+                copies: 2,
+                hasGainPower: true,
+                hasPowerSelf: true,
+                hasSelfHarm: true,
+                hasDirectDamage: true,
+            },
+        ]
+    },
 ];
