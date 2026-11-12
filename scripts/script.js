@@ -273,13 +273,13 @@ function placeFighterCards(fighterName) {
 // - Show their fighter boards, show their cards, and show their card distributions
 document.body.addEventListener('click', function(event) {
     if (event.target.classList.contains("js_random-pair-btn")) {
-        let randomNumberOne = Math.floor(Math.random() * 27);
-        let randomNumberTwo = Math.floor(Math.random() * 27);
+        let randomNumberOne = Math.floor(Math.random() * 31);
+        let randomNumberTwo = Math.floor(Math.random() * 31);
 
         checkNumbers();
         function checkNumbers() {
             if (randomNumberOne === randomNumberTwo) {
-                randomNumberTwo = Math.floor(Math.random() * 27);
+                randomNumberTwo = Math.floor(Math.random() * 31);
                 checkNumbers();
             }
         }

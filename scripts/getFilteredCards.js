@@ -1,5 +1,5 @@
 // If fighter's input was checked, keep thir cards in the array; otherwise, remove the cards from the array
-export function getFighters(array, bodvar, chingShih, excalibur, joan, mamanBrijit, mephisto, milady, mordred, shango, theFeyFolk, theGolem, theWildBunch, wongFeiHung, merlin, morgan, perceval, theDragon, theGreenKnight, bigBrother, brawler, comboMaster, hunter, ninja, samurai, theCursed, babaYaga, carmilla) {
+export function getFighters(array, bodvar, chingShih, excalibur, joan, mamanBrijit, mephisto, milady, mordred, shango, theFeyFolk, theGolem, theWildBunch, wongFeiHung, merlin, morgan, perceval, theDragon, theGreenKnight, bigBrother, brawler, comboMaster, hunter, ninja, samurai, theCursed, babaYaga, carmilla, moriarty, nemo, oiwa, vanHelsing) {
 
     if (!bodvar) {
         array = array.filter(card => card.fighter != "Bodvar");
@@ -81,6 +81,18 @@ export function getFighters(array, bodvar, chingShih, excalibur, joan, mamanBrij
     }
     if (!carmilla) {
         array = array.filter(card => card.fighter != "Carmilla");
+    }
+    if (!moriarty) {
+        array = array.filter(card => card.fighter != "Moriarty");
+    }
+    if (!nemo) {
+        array = array.filter(card => card.fighter != "Nemo");
+    }
+    if (!oiwa) {
+        array = array.filter(card => card.fighter != "Oiwa");
+    }
+    if (!vanHelsing) {
+        array = array.filter(card => card.fighter != "Van Helsing");
     }
 
     return array;

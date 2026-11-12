@@ -27,8 +27,12 @@ export function checkFighters() {
     let theCursed = document.querySelector('.js_the-cursed').checked;
     let babaYaga = document.querySelector('.js_baba-yaga').checked;
     let carmilla = document.querySelector('.js_carmilla').checked;
+    let moriarty = document.querySelector('.js_moriarty').checked;
+    let nemo = document.querySelector('.js_nemo').checked;
+    let oiwa = document.querySelector('.js_oiwa').checked;
+    let vanHelsing = document.querySelector('.js_van-helsing').checked;
 
-    return [bodvar, chingShih, excalibur, joan, mamanBrijit, mephisto, milady, mordred, shango, theFeyFolk, theGolem, theWildBunch, wongFeiHung, merlin, morgan, perceval, theDragon, theGreenKnight, bigBrother, brawler, comboMaster, hunter, ninja, samurai, theCursed, babaYaga, carmilla];
+    return [bodvar, chingShih, excalibur, joan, mamanBrijit, mephisto, milady, mordred, shango, theFeyFolk, theGolem, theWildBunch, wongFeiHung, merlin, morgan, perceval, theDragon, theGreenKnight, bigBrother, brawler, comboMaster, hunter, ninja, samurai, theCursed, babaYaga, carmilla, moriarty, nemo, oiwa, vanHelsing];
 }
 
 // See which card properties inputs are checked and return the boolean

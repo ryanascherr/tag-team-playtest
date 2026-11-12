@@ -19,10 +19,10 @@ function getAllCards() {
 export function getCards() {
     let array = cardArray;
     
-    let [bodvar, chingShih, excalibur, joan, mamanBrijit, mephisto, milady, mordred, shango, theFeyFolk, theGolem, theWildBunch, wongFeiHung, merlin, morgan, perceval, theDragon, theGreenKnight, bigBrother, brawler, comboMaster, hunter, ninja, samurai, theCursed, babaYaga, carmilla] = checkFighters();
+    let [bodvar, chingShih, excalibur, joan, mamanBrijit, mephisto, milady, mordred, shango, theFeyFolk, theGolem, theWildBunch, wongFeiHung, merlin, morgan, perceval, theDragon, theGreenKnight, bigBrother, brawler, comboMaster, hunter, ninja, samurai, theCursed, babaYaga, carmilla, moriarty, nemo, oiwa, vanHelsing] = checkFighters();
     let [startingCard, attack, block, heal, directDamage, gainPower, uniqueIcon, cancel, conditional, winCondition, affectsStartingCard, reflect, selfHarm, single, multiple, affectsFriendlyAlly, affectsOpponentAlly, instantBonus] = checkActions();
         
-    array = getFighters(array, bodvar, chingShih, excalibur, joan, mamanBrijit, mephisto, milady, mordred, shango, theFeyFolk, theGolem, theWildBunch, wongFeiHung, merlin, morgan, perceval, theDragon, theGreenKnight, bigBrother, brawler, comboMaster, hunter, ninja, samurai, theCursed, babaYaga, carmilla);
+    array = getFighters(array, bodvar, chingShih, excalibur, joan, mamanBrijit, mephisto, milady, mordred, shango, theFeyFolk, theGolem, theWildBunch, wongFeiHung, merlin, morgan, perceval, theDragon, theGreenKnight, bigBrother, brawler, comboMaster, hunter, ninja, samurai, theCursed, babaYaga, carmilla, moriarty, nemo, oiwa, vanHelsing);
 
     array = getActions(array, startingCard, attack, block, heal, directDamage, gainPower, uniqueIcon, cancel, conditional, winCondition, affectsStartingCard, reflect, selfHarm, single, multiple, affectsFriendlyAlly, affectsOpponentAlly, instantBonus);
 
